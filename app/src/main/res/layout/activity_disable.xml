@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".domesticActivity">
+    tools:context=".disableActivity">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -13,44 +13,44 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="370dp"
-            android:layout_height="90dp"
+            android:layout_width="372dp"
+            android:layout_height="77dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="20dp"
-            android:text="Can I break my lease to escape violence?"
+            android:text="What is a reasonable accommodation?"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="375dp"
-            android:layout_height="203dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="20dp"
-            android:text="Yes.  Within 90 days of a reported incident (such as a hospital visit, call to 911, filing for a protection order, etc.), send your landlord:  A letter stating that you will be moving in 30 days. (download sample) Include with your letter at least one form of proof such as a police report, protection from abuse order or letter from a health care professional, guidance counselor, or victims’ services organization."
+            android:layout_width="377dp"
+            android:layout_height="255dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:text="Any change to polices, practices, procedures or services to allow accessibility and equal opportunity for a person with a disability.  Examples include:  Installing ramps and hand railings to make a house wheelchair accessible. Changing the date rent is due to coincide with the date you receive your disability check. Allowing you to use a different entrance or park in a specific parking spot because of mobility issues. Helping you transfer if your home is unsuitable due to your disability."
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="370dp"
-            android:layout_height="69dp"
+            android:layout_width="372dp"
+            android:layout_height="62dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="20dp"
-            android:text="What should I do if I am being evicted?"
+            android:text="How do I request a reasonable accommodation?"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="368dp"
-            android:layout_height="176dp"
-            android:layout_marginTop="15dp"
+            android:layout_width="374dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="24dp"
-            android:text="Send your landlord a letter explaining that you are a victim of domestic or sexual violence and that Philadelphia law makes it illegal for him to evict you because of domestic or sexual violence. If your landlord will not listen, you can file a complaint with the Philadelphia Fair Housing Commission by calling 215.686.4670 or get legal help."
+            android:text="Ask for a Disability Verification letter from a doctor, medical professional, peer support group, non-medical service agency or other reliable person who is in a position to know about your disability. The letter should state your disability and how it impacts your housing.  (Download sample)"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />

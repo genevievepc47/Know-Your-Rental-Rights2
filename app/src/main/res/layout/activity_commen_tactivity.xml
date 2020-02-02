@@ -20,7 +20,7 @@
             android:layout_marginEnd="168dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Search Complaints"
+            android:text="Search Comments"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/recyclerView" />
 
@@ -33,16 +33,16 @@
             app:layout_constraintTop_toBottomOf="@+id/editText" />
 
         <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="22dp"
-        android:layout_marginEnd="171dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter complaint"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="171dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter comment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/submit"

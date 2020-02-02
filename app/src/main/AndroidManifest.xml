@@ -15,7 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".domesticActivity"></activity>
+        <activity android:name=".disableActivity"></activity>
+        <activity android:name=".helpActivity" />
+        <activity android:name=".rentActivity" />
+        <activity android:name=".domesticActivity" />
         <activity android:name=".activity3" />
         <activity android:name=".CommentActivity" />
         <activity android:name=".activity2" />

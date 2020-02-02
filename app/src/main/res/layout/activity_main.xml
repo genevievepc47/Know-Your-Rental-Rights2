@@ -50,7 +50,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:drawableStart="@android:drawable/sym_action_call"
-            android:text="Make a comlaint"
+            android:text="Make a comment"
 
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"

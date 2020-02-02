@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".domesticActivity">
+    tools:context=".helpActivity">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -13,44 +13,44 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="370dp"
-            android:layout_height="90dp"
+            android:layout_width="367dp"
+            android:layout_height="117dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="20dp"
-            android:text="Can I break my lease to escape violence?"
+            android:text="Call 267-443-2500 for the Tenant Legal Aid Referral Line."
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="375dp"
-            android:layout_height="203dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="20dp"
-            android:text="Yes.  Within 90 days of a reported incident (such as a hospital visit, call to 911, filing for a protection order, etc.), send your landlord:  A letter stating that you will be moving in 30 days. (download sample) Include with your letter at least one form of proof such as a police report, protection from abuse order or letter from a health care professional, guidance counselor, or victims’ services organization."
+            android:layout_width="372dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:text="For free legal advice and representation for low-income tenants.  Live housing counselor 11am-7pm Weekend call backs for emergencies. Referrals to: Tenant Union Representative Network SeniorLAW Center AIDS Law Project Legal Clinic for the Disabled Community Legal Services"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="370dp"
-            android:layout_height="69dp"
+            android:layout_width="372dp"
+            android:layout_height="62dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="20dp"
-            android:text="What should I do if I am being evicted?"
+            android:text="Walk-in at one of the following locations:"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="368dp"
-            android:layout_height="176dp"
-            android:layout_marginTop="15dp"
+            android:layout_width="374dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="24dp"
-            android:text="Send your landlord a letter explaining that you are a victim of domestic or sexual violence and that Philadelphia law makes it illegal for him to evict you because of domestic or sexual violence. If your landlord will not listen, you can file a complaint with the Philadelphia Fair Housing Commission by calling 215.686.4670 or get legal help."
+            android:text="Community Legal Services – Advice, Referral or Representation  1424 Chestnut St Monday-Thursday, 9am to 12pm Landlord/Tenant Help Center – Advice, Referral or Representation  1339 Chestnut Street, 10th floor Monday-Thursday, 9:30am to 2pm SeniorLAW Center  – Walk-in for emergencies only, Age 60+  2 Penn Center, 1500 JFK Blvd, Suite 1501 Tuesday and Thursday, 9am to 12pm"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
