@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity3">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="355dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="32dp"
+        android:text="After 5pm and Weekends"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="359dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="28dp"
+        android:text="Monday-Friday, 7am-5pm"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="366dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="27dp"
+        android:text="For Single Women and Families: Apple Tree Family Center 1430 Cherry St (near Cherry and 15th) 215-686-7150, 7151, 7152, or 7153  For Single Men: Roosevelt Darby Center 802 N Broad St (near Broad and Fairmount) 215-685-3700"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="375dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="16dp"
+        android:text="For Single Women: House of Passage Kirkbride Center 111 N 48th St (near 48th and Haverford) 215-471-2017 or 267-713-7778  For Families: The Red Shield 715 N Broad St (near Broad and Fairmount) 215-787-2887  For Single Men: Station House 2601 N Broad St (near Broad and Lehigh) 215-225-9232"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</android.support.constraint.ConstraintLayout>
